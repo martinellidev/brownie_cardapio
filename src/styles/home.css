@@ -1,0 +1,40 @@
+@charset "UTF-8";
+#home {
+  display: flex;
+  min-height: calc(100vh - 104px);
+}
+#cta {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-top: 5%;
+}
+#cta .title {
+  font-size: 4em;
+  color: #1d1d1d;
+}
+#cta .title span {
+  color: #e9a209;
+}
+#cta .description {
+  font-size: 1.2rem;
+}
+#cta_buttons {
+  display: flex;
+  gap: 24px;
+}
+#cta_buttons a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+#phone_button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background-color: #ffff;
+  padding: 8px 14px;
+  font-weight: 500;
+  box-shadow: 0px 0px 12px 4px rgba(0px, 0px, 0px, 0.1);
+  border-radius: 12px;
+}

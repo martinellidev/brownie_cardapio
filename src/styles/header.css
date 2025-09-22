@@ -39,7 +39,7 @@ header {
 @media screen and (max-width: 1170px) {
   /*Media Querys é responsividade, quando a tela for menor carregue isso*/
   #nav_list,
-  #navbar .btn-default {
+  #navbar .btn_default {
     display: none;
   }
 
