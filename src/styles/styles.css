@@ -26,3 +26,6 @@ body {
 .btn-default:hover {
 background-color: #f8d477;
 }
+.btn-default a{
+  text-decoration: none;
+}
